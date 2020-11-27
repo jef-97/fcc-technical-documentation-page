@@ -24,24 +24,57 @@ body {
 }
 
 #navbar li {
-    display: block;
-    padding: 10px;
     border-top: solid 1px;
     width: 100%;
+    padding: 4px;
     position: relative;
+    list-style: none;
 }
 
 #navbar a {
     text-decoration: none;
     color: rgb(90, 90, 90);
-    
+    cursor: pointer;
+    padding: 10px 30px;
+    display: block;
 }
 
 #navbar header {
     text-align: center;
-}
-
-header {
+    padding-top: 10px;
     font-size: 1.8rem;
     color: black;
 }
+
+#main-doc header {
+    font-size: 1.8rem;
+    color: black;
+    margin-top: 30px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+code {
+    font-size: 13px;
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+    word-break: normal;
+    word-wrap: normal;
+    display: block;
+
+}
+
+p {
+    padding: 6px;
+}
+
+#main-doc li  {
+   margin: 15px 0px 0px 20px;
+}
+
